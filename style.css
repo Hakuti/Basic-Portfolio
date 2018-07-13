@@ -1,0 +1,281 @@
+header {
+    background-color: gray;
+}
+body {
+    background-color: #FF847C;
+}
+#outerDiv {
+    background-color: #2A363B;
+    width:100%;
+    height: 80px;
+    padding: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+#navDiv {
+    position: relative;
+    top: 20%;
+    right: 8%
+}
+
+innerDivHeading h1 {
+    /* padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee; */
+    text-align: center;
+    position: absolute;
+    left: 15% 
+    /* margin: 0px 0px 15% 20%; */
+    /* position:relative; */
+     
+}
+
+#innerDivHeading {
+    height: 100%;
+    width: 22%;
+    background-color: #E84A5F;
+    position: relative;
+    margin: 0px 0px 15% 20%;
+    float: left;
+    text-align: center;
+}
+
+ #ulTopNav {
+    margin:0% 10% 0px 0px;
+    padding:0;
+    list-style: none;
+    position:relative;
+ }
+ 
+ #ulTopNav li {
+     float: right;
+    font-family: sans-serif;
+     padding: 10px;
+ }
+
+ #centerDivAbout{
+     background-color: #fecea8;
+     height: 50%;
+     width: 60%;
+     margin: 0 auto;
+     clear:both;
+     /* margin-bottom: 20%;  */
+    position: relative;
+    bottom: 20%;
+ }
+
+
+ #centerDivPortfolio{
+    background-color: #fecea8;
+    height: 960px;
+    width: 960px;
+    margin: 0 auto;
+    clear:both;
+    /* margin-bottom: 20%; */
+   position: relative;
+   bottom: 20%;
+}
+
+#centerDivContact{
+    background-color: #fecea8;
+    height: 960px;
+    width: 960px;
+    margin: 0 auto;
+    clear:both;
+    /* margin-bottom: 20%; */
+   position: relative;
+   bottom: 20%;
+}
+ 
+
+ #centerDivHeading1 {
+     position: relative;
+     left:5%;
+     top: 5%;
+ }
+ #centerDivHeading h1 {
+     color:teal;
+     line-break: auto;
+ }
+
+ footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #2A363B;
+    margin-top: 0%;
+    border-top: 20px solid #E84A5F;
+ }
+
+ #centerDivContentLeft1 {
+     height: 30%;
+     width: 30%;
+     /* background-color: #2A363B; */
+     position: relative;
+     clear:both;
+     float: left;
+     left: 8%;
+     top: 10%;
+     /* background-image: url('/assets/me.jpg'); */
+    
+ }
+
+ .centerDivParagraph {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    font-family: sans-serif;
+ }
+
+ .centerDivImg {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+ }
+
+ #centerDivImgContent {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+ }
+
+ #centerDivContentRight1 {
+     position: relative;
+     background-color: #2A363B;
+     height: 30%;
+     width: 30%;
+     right: 25%;
+     float: right;
+     top: 10%;
+     
+ }
+
+ #centerDivContentLeft2 {
+    position: relative;
+    background-color: #2A363B;
+    height: 30%;
+    width: 30%;
+    clear: both;
+    float: left;
+    left: 8%;
+    top: 20%;
+    
+}
+
+#centerDivContentRight2 {
+     position: relative;
+     background-color: #2A363B;
+     height: 30%;
+     width: 30%;
+     float: right;
+     right: 25%;
+     top: 20%;
+     
+     
+ }
+
+ .centerDivContentInnerDiv {
+    position: absolute;
+    height: 10%;
+    background: #E84A5F;
+    width: 100%;
+    height: 30%;
+    top: 60%;
+    z-index: 1;
+
+    
+ }
+
+ #centerDivContent {
+     position: relative;
+     top: 5%;
+ }
+
+ /* #centerDivContentRight1InnerDiv {
+    position: absolute;
+    height: 10%;
+    background: #E84A5F;
+    width: 100%;
+    height: 30%;
+    top: 60%;
+    z-index: 1;
+    
+ }
+
+ #centerDivContentLeft2InnerDiv {
+    position: relative;
+    height: 10%;
+    background: #E84A5F;
+    width: 100%;
+    height: 30%;
+    top: 50%;
+    
+ }
+
+ #centerDivContentRight2InnerDiv {
+    position: relative;
+    height: 10%;
+    background: #E84A5F;
+    width: 100%;
+    height: 30%;
+    top: 50%;
+    
+ } */
+
+ #centerDivName {
+    position: relative;
+    height: 15%;
+    width: 90%;
+    left: 5%;
+    border-style: dashed;
+    top: 10%;
+ }
+
+ #centerDivEmail {
+    position: relative;
+    height: 15%;
+    width: 90%;
+    border-style: dashed;
+    left: 5%;
+    top: 15%;
+
+ }
+
+ #centerDivMessage {
+    position: relative;
+    height: 30%;
+    width: 90%;
+    border-style: dotted;
+    left: 5%;
+    top: 20%;
+
+ }
+
+ .inputField {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    
+ }
+
+#centerDivMessage textarea {
+     position: relative;
+     width: 100%;
+     height: 70%;
+
+     
+ }
+
+#centerDivButtonDiv {
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
